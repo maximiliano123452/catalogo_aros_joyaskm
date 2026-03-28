@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joyas KM — Catálogo Aros</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+  <p class="header-ornament">✦ Joyería Artesanal ✦</p>
+  <h1 class="logo">JOYAS <span>KM</span></h1>
+  <p class="tagline">16 Años de Excelencia en Orfebrería</p>
+  <div class="gold-line"></div>
+</header>
+
+<div class="category-tabs">
+  <button class="tab-btn active" onclick="showTab('oro', this)">Aros Oro</button>
+  <button class="tab-btn" onclick="showTab('plata', this)">Aros Plata</button>
+</div>
+
+<div class="section active" id="tab-oro">
+  <h2 class="section-title">Aros de Oro</h2>
+  <p class="section-subtitle">Oro 18 Kilates — Colección Permanente</p>
+  <div class="products-grid" id="grid-oro"></div>
+</div>
+
+<div class="section" id="tab-plata">
+  <h2 class="section-title">Aros de Plata</h2>
+  <p class="section-subtitle">Plata 925 — Colección Permanente</p>
+  <div class="products-grid" id="grid-plata"></div>
+</div>
+
+<footer>
+  <div class="footer-logo">JOYAS KM</div>
+  <div class="footer-divider"></div>
+  <div class="footer-info">Mall Arauco Estación · Local 1065 · Santiago, Chile</div>
+  <div class="footer-info">+56 9 4546 0876 · www.joyaskm.cl</div>
+  <div class="footer-links">
+    <a class="footer-link" href="https://www.instagram.com/joyeriaskm" target="_blank">Instagram</a>
+    <a class="footer-link" href="https://wa.me/56945460876" target="_blank">WhatsApp</a>
+    <a class="footer-link" href="https://joyaskm.cl" target="_blank">Sitio Web</a>
+    <a class="footer-link" href="https://maximiliano123452.github.io/catalogo_visual_joyaskm" target="_blank">Catálogo Argollas</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close">×</button>
+  <img id="lightbox-img" src="" alt="Zoom">
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
