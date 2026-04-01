@@ -15,28 +15,28 @@ const productosOro = [
       'img/aros-oro/oro01-3.jpg',
       'img/aros-oro/oro01-4.jpg',
     ],
-    wsp: 'Aro%20Delfín%20N°1%20en%20Oro%2018K'
+    wsp: 'Aros%20Delfín%20N°1%20en%20Oro%2018K'
   },
   {
     id: 'oro-02',
-    nombre: 'Aro Colgante Lazo',
+    nombre: 'Aros Delfín Atornillados N°1',
     material: 'Oro 18K — Joyas KM',
-    descripcion: 'Aro colgante con diseño de lazo artesanal en oro 18K. Elegante y femenino, ideal para toda ocasión.',
+    descripcion: 'Estos encantadores aros, hechos completamente a mano en oro 18K, presentan un diseño de delfín que simboliza libertad, alegría y conexión con el mar, con cierre atornillado de máxima seguridad. Perfectos para las pequeñas amantes del océano.',
     precio: 'p-oro-02',
-    nuevo: true,
+    nuevo: false,
     fotos: [
       'img/aros-oro/oro02-1.jpg',
       'img/aros-oro/oro02-2.jpg',
       'img/aros-oro/oro02-3.jpg',
       'img/aros-oro/oro02-4.jpg',
     ],
-    wsp: 'Aro%20Colgante%20Lazo%20en%20Oro%2018K'
+    wsp: 'Aros%20Defín%20N°2%20en%20Oro%2018K'
   },
   {
     id: 'oro-03',
-    nombre: 'Aro Diamantado',
+    nombre: 'Aros Llave de Sol',
     material: 'Oro 18K — Joyas KM',
-    descripcion: 'Aro argolla con textura diamantada artesanal en oro 18K. Superficie facetada que capta la luz en cada movimiento.',
+    descripcion: 'Estos delicados aros, elaborados completamente a mano en oro 18K, presentan un diseño de llave de sol que simboliza energía, luz y buena fortuna, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan la musica en cada paso.',
     precio: 'p-oro-03',
     nuevo: false,
     fotos: [
@@ -45,8 +45,264 @@ const productosOro = [
       'img/aros-oro/oro03-3.jpg',
       'img/aros-oro/oro03-4.jpg',
     ],
-    wsp: 'Aro%20Diamantado%20en%20Oro%2018K'
+    wsp: 'Aros%20Llave520de%20Sol%20en%20Oro%2018K'
   },
+  {
+    id: 'oro-04',
+    nombre: 'Aros Chuncho Juvenil N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos exclusivos aros, confeccionados completamente a mano en oro 18K, presentan la insignia del equipo de tus amores, en detalle artesanal fino, con cierre atornillado de máxima seguridad. Perfectos para las hinchas azules que llevan su pasión con elegancia.',
+    precio: 'p-oro-04',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro04-1.jpg',
+      'img/aros-oro/oro04-2.jpg',
+      'img/aros-oro/oro04-3.jpg',
+      'img/aros-oro/oro04-4.jpg',
+    ],
+    wsp: 'Aros%20Chuncho%20N°1%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-05',
+    nombre: 'Aros Tres Estrellas',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos encantadores aros, elaborados completamente a mano en oro 18K, presentan un diseño de tres estrellas que simboliza sueños, guía y destino, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan la magia del cielo en cada ocasión.',
+    precio: 'p-oro-05',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro05-1.jpg',
+      'img/aros-oro/oro05-2.jpg',
+      'img/aros-oro/oro05-3.jpg',
+      'img/aros-oro/oro05-4.jpg',
+    ],
+    wsp: 'Aros%20Tres%20Estrellas%20en%20Oro%2018K'
+  },    
+  {
+    id: 'oro-06',
+    nombre: 'Aros Chatón Corazón N°2',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos delicados aros, confeccionados completamente a mano en oro 18K, presentan un chatón español en forma de corazón con piedra incrustada de máximo brillo, con cierre atornillado de máxima seguridad. Perfectos para quienes expresan el amor con elegancia clásica.',
+    precio: 'p-oro-06',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro06-1.jpg',
+      'img/aros-oro/oro06-2.jpg',
+      'img/aros-oro/oro06-3.jpg',
+      'img/aros-oro/oro06-4.jpg',
+    ],
+    wsp: 'Aros%20Chaton%20CorazónN°2%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-07',
+    nombre: 'Aros Chatón Italiano N°2',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos sofisticados aros, elaborados completamente a mano en oro 18K, presentan un chatón de factura italiana con piedra de corte preciso que capta la luz en cada movimiento, con cierre atornillado de máxima seguridad. Perfectos para quienes aprecian la elegancia europea en cada detalle.',
+    precio: 'p-oro-07',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro07-1.jpg',
+      'img/aros-oro/oro07-2.jpg',
+      'img/aros-oro/oro07-3.jpg',
+      'img/aros-oro/oro07-4.jpg',
+    ],
+    wsp: 'Aros%20Chaton%20ItalianoN°2%20en%20Oro%2018K'
+  },    
+  {
+    id: 'oro-08',
+    nombre: 'Aros Satelite Bola-Bola',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos modernos aros, confeccionados completamente a mano en oro 18K, presentan un diseño satélite de esferas que evocan movimiento, equilibrio y estilo contemporáneo, con cierre atornillado de máxima seguridad. Perfectos para quienes buscan un toque vanguardista con distinción.',
+    precio: 'p-oro-08',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro08-1.jpg',
+      'img/aros-oro/oro08-2.jpg',
+      'img/aros-oro/oro08-3.jpg',
+      'img/aros-oro/oro08-4.jpg',
+    ],
+    wsp: 'Aros%20Satelite%20Bola-Bola%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-09',
+    nombre: 'Aros Corazón Juvenil N°2',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos tiernos aros, elaborados completamente a mano en oro 18K, presentan un corazón inflado de volumen generoso que irradia amor y feminidad en cada ángulo, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan el corazón con orgullo y estilo.',
+    precio: 'p-oro-09',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro09-1.jpg',
+      'img/aros-oro/oro09-2.jpg',
+      'img/aros-oro/oro09-3.jpg',
+      'img/aros-oro/oro09-4.jpg',
+    ],
+    wsp: 'Aros%20Corazón%20N°2%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-10',
+    nombre: 'Aros Bolita Pistilo N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos exclusivos aros, confeccionados completamente a mano en oro 18K, presentan la insignia del equipo de tus amores, en detalle artesanal fino, con cierre atornillado de máxima seguridad. Perfectos para las hinchas azules que llevan su pasión con elegancia.',
+    precio: 'p-oro-10',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro10-1.jpg',
+      'img/aros-oro/oro10-2.jpg',
+      'img/aros-oro/oro10-3.jpg',
+      'img/aros-oro/oro10-4.jpg',
+    ],
+    wsp: 'Aros%20Bolita%20Pistilo%20N°1%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-11',
+    nombre: 'Aros Media Luna / Estrella N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos románticos aros, elaborados completamente a mano en oro 18K, presentan un diseño de media luna y estrella que simboliza feminidad, misterio y luz en la oscuridad, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan la magia de la noche con elegancia.',
+    precio: 'p-oro-11',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro11-1.jpg',
+      'img/aros-oro/oro11-2.jpg',
+      'img/aros-oro/oro11-3.jpg',
+      'img/aros-oro/oro11-4.jpg',
+    ],
+    wsp: 'Aros%20Media%20Luna%20Estrella%20N°1%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-12',
+    nombre: 'Aros Gatitos Silueta',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos encantadores aros, confeccionados completamente a mano en oro 18K, presentan una silueta de gatito calada en detalle artesanal fino que combina ternura y distinción, con cierre atornillado de máxima seguridad. Perfectos para las amantes de los felinos que expresan su personalidad con estilo.',
+    precio: 'p-oro-12',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro12-1.jpg',
+      'img/aros-oro/oro12-2.jpg',
+      'img/aros-oro/oro12-3.jpg',
+      'img/aros-oro/oro12-4.jpg',
+    ],
+    wsp: 'Aros%20Gatitos%20Silueta%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-13',
+    nombre: 'Aros Trebol 4 hojas Rubí',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos afortunados aros, elaborados completamente a mano en oro 18K, presentan un trébol de cuatro hojas con rubí incrustado que simboliza suerte, amor y prosperidad en cada detalle, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan la buena fortuna cerca del corazón.',
+    precio: 'p-oro-13',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro13-1.jpg',
+      'img/aros-oro/oro13-2.jpg',
+      'img/aros-oro/oro13-3.jpg',
+      'img/aros-oro/oro13-4.jpg',
+    ],
+    wsp: 'Aros%20Trebol%204%20hojas%20Rubí%20en%20Oro%2018K'
+  },
+    {
+    id: 'oro-14',
+    nombre: 'Aros Punto De luz Boton',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos elegantes aros, confeccionados completamente a mano en oro 18K, presentan un punto de luz con piedra de corte brillante que capta y refleja cada destello a su alrededor, con cierre atornillado de máxima seguridad. Perfectos para quienes buscan discreción con máximo brillo en cada ocasión.',
+    precio: 'p-oro-14',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro14-1.jpg',
+      'img/aros-oro/oro14-2.jpg',
+      'img/aros-oro/oro14-3.jpg',
+      'img/aros-oro/oro14-4.jpg',
+    ],
+    wsp: 'Aros%20Punto%20de%20Luz%20Boton%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-15',
+    nombre: 'Aros Dos Corazón Diagonal',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos románticos aros, elaborados completamente a mano en oro 18K, presentan un corazón central de mayor tamaño con un segundo corazón más pequeño suspendido justo debajo, creando una composición de amor escalonado llena de delicadeza, con cierre atornillado de máxima seguridad. Perfectos para quienes expresan el amor en cada detalle con distinción.',
+    precio: 'p-oro-15',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro15-1.jpg',
+      'img/aros-oro/oro15-2.jpg',
+      'img/aros-oro/oro15-3.jpg',
+      'img/aros-oro/oro15-4.jpg',
+    ],
+    wsp: 'Aros%20Dos%20Corazón%20Diagonal%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-16',
+    nombre: 'Aros Doble Nudo',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos sofisticados aros, elaborados completamente a mano en oro 18K, presentan un diseño de doble nudo que simboliza unión, fortaleza y vínculo eterno en cada curva artesanal, con cierre atornillado de máxima seguridad. Perfectos para quienes llevan los lazos más importantes de su vida con elegancia.',
+    precio: 'p-oro-16',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro16-1.jpg',
+      'img/aros-oro/oro16-2.jpg',
+      'img/aros-oro/oro16-3.jpg',
+      'img/aros-oro/oro16-4.jpg',
+    ],
+    wsp: 'Aros%20Doble%20Nudo%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-17',
+    nombre: 'Aros Pistilo N°2',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos delicados aros, confeccionados completamente a mano en oro 18K, presentan un diseño de pistilos con perlas cultivadas de 4mm que combinan la pureza natural de la perla con la calidez del oro en perfecta armonía, con cierre atornillado de máxima seguridad. Perfectos para quienes aprecian la elegancia clásica con un toque de naturaleza genuina.',
+    precio: 'p-oro-17',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro17-1.jpg',
+      'img/aros-oro/oro17-2.jpg',
+      'img/aros-oro/oro17-3.jpg',
+      'img/aros-oro/oro17-4.jpg',
+    ],
+    wsp: 'Aros%20Pistilo%20N°2%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-18',
+    nombre: 'Aros Bolita Pistilo N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos exclusivos aros, confeccionados completamente a mano en oro 18K, presentan la insignia del equipo de tus amores, en detalle artesanal fino, con cierre atornillado de máxima seguridad. Perfectos para las hinchas azules que llevan su pasión con elegancia.',
+    precio: 'p-oro-18',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro18-1.jpg',
+      'img/aros-oro/oro18-2.jpg',
+      'img/aros-oro/oro18-3.jpg',
+      'img/aros-oro/oro18-4.jpg',
+    ],
+    wsp: 'Aros%20Bolita%20Pistilo%20N°1%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-19',
+    nombre: 'Aros Bolita Pistilo N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos exclusivos aros, confeccionados completamente a mano en oro 18K, presentan la insignia del equipo de tus amores, en detalle artesanal fino, con cierre atornillado de máxima seguridad. Perfectos para las hinchas azules que llevan su pasión con elegancia.',
+    precio: 'p-oro-19',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro19-1.jpg',
+      'img/aros-oro/oro19-2.jpg',
+      'img/aros-oro/oro19-3.jpg',
+      'img/aros-oro/oro19-4.jpg',
+    ],
+    wsp: 'Aros%20Bolita%20Pistilo%20N°1%20en%20Oro%2018K'
+  },
+  {
+    id: 'oro-20',
+    nombre: 'Aros Bolita Pistilo N°1',
+    material: 'Oro 18K — Joyas KM',
+    descripcion: 'Estos exclusivos aros, confeccionados completamente a mano en oro 18K, presentan la insignia del equipo de tus amores, en detalle artesanal fino, con cierre atornillado de máxima seguridad. Perfectos para las hinchas azules que llevan su pasión con elegancia.',
+    precio: 'p-oro-20',
+    nuevo: false,
+    fotos: [
+      'img/aros-oro/oro20-1.jpg',
+      'img/aros-oro/oro20-2.jpg',
+      'img/aros-oro/oro20-3.jpg',
+      'img/aros-oro/oro20-4.jpg',
+    ],
+    wsp: 'Aros%20Bolita%20Pistilo%20N°1%20en%20Oro%2018K'
+  },
+
 ];
 
 const productosPlata = [
